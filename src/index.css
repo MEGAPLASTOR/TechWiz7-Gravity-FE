@@ -1,0 +1,37 @@
+@import './styles/claymorphism.css';
+
+/* Global Reset and Layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--pastel-base);
+  color: var(--text-main);
+  font-family: var(--font-data);
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Helper utilities */
+.container {
+  max-width: 1360px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, #1FA855 0%, #136934 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-orange {
+  background: linear-gradient(135deg, #FF7A30 0%, #d85711 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
